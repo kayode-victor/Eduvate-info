@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
         <div className="bg-[#184C99] relative flex items-center justify-center w-full md:w-2/5 h-[520px]">
           <img
-            src="/ImgBg.svg"
+            src="/imgBg.svg"
             alt="Background-image"
             className="h-[400px] w-[400px] absolute -bottom-10 z-0"
           />
