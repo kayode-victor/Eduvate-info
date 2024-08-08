@@ -29,7 +29,7 @@ const services = [
 const Service = () => {
   return (
     <div className="flex relative flex-col gap-10 items-center md:items-start py-5 md:py-10 px-5 md:px-20 md:-top-36">
-      <h1 className="text-xl font-bold tracking-wider text-gray-600 pt-5 md:py-0 md:px-20">
+      <h1 className="text-xl font-bold tracking-wider text-center md:text-left text-gray-600 pt-5 md:py-0 md:px-20">
         Why Choose Our Tutoring Services?
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 md:px-20 gap-8 z-20">
