@@ -9,7 +9,7 @@ import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
-    <div className="w-full h-screen overflow-x-hidden">
+    <div className="w-full h-screen bg-white overflow-x-hidden">
       <Header />
       <Hero />
       <Service />

@@ -9,19 +9,13 @@ const testimonials = [
   {
     quote:
       "This tutoring service has greatly improved my child's understanding of mathematics.",
-    name: "Jane Doe",
+    name: "Mrs Comfort Kayode",
     rating: 5,
   },
   {
     quote:
-      "The personalized attention has helped my daughter excel in her studies.",
-    name: "John Smith",
-    rating: 4,
-  },
-  {
-    quote:
       "A fantastic program! My son loves the classes and is always eager to learn more.",
-    name: "Mrs Comfort Kayode",
+    name: "Mrs Esther Fagbie",
     rating: 5,
   },
 ];

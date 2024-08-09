@@ -63,7 +63,7 @@ const Details = () => {
         {classDetails.map((detail, index) => (
           <p
             key={index}
-            className="text-sm md:text-md font-normal text-gray-700 py-2"
+            className="text-sm md:text-md font-normal text-gray-900 py-2"
           >
             <span className="font-semibold">{detail.title}:</span>{" "}
             {detail.content}
