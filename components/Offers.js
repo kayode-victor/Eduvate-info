@@ -166,8 +166,8 @@ const Offers = () => {
                 <h2 className="font-bold text-md text-gray-800">
                   {course.title}
                 </h2>
-                <p className="text-ghost font-light">{course.description}</p>
-                <div className="font-medium text-right text-ghost">
+                <p className="text-gray-800 font-light">{course.description}</p>
+                <div className="font-medium text-right text-gray-800">
                   <p>{course.classGroup}</p>
                 </div>
               </div>

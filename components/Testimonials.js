@@ -53,11 +53,11 @@ const Testimonials = () => {
         >
           {testimonials.map((testimonial, index) => (
             <SwiperSlide key={index}>
-              <div className="p-5 bg-white shadow-lg rounded-lg h-40 md:h-56 border-2 border-gray-500 hover:border-primary">
+              <div className="p-5 bg-white shadow-lg rounded-lg h-48 md:h-56 border-2 border-gray-500 hover:border-primary">
                 <p className="italic text-gray-700 text-lg md:text-xl mb-4">
                   {testimonial.quote}
                 </p>
-                <div className="flex flex-col mt-5 md:mt-16">
+                <div className="flex flex-col mt-5 md:mt-16 relative bottom-2">
                   <p className="font-bold text-gray-800">{testimonial.name}</p>
                   <div className="flex">
                     {Array.from({ length: testimonial.rating }, (_, i) => (
